@@ -1,0 +1,100 @@
+.cust-rounded {
+  border-radius: 0.8rem;
+}
+
+.cust-rounded-head {
+  border-top-left-radius: 0.8rem !important;
+  border-top-right-radius: 0.8rem !important;
+}
+
+.avg-tag {
+  font-weight: 200;
+}
+
+.circle-it {
+  border-radius: 50%;
+  height: 1.4vh;
+  width: 1.4vh;
+  background-color: red;
+}
+
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+#Graph-holder {
+  max-height: 100vh;
+}
+
+.card {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #3f51b5, #6a79ce);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bg-cust {
+  background: linear-gradient(135deg, #3f51b5, #6a79ce);
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+.text-light-dim {
+  opacity: 50% !important;
+  color: white;
+}
+
+.date {
+  font-weight: 400;
+  font-size: small;
+}
+
+.cust-border {
+  border: 0.3px solid rgba(255, 255, 255, 0.422);
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.icon {
+  height: 1.5rem;
+  color: white !important;
+}
+
+.icons-hov:hover {
+  color: #6a79ce !important;
+  transition: linear;
+  transition-duration: 200ms;
+}
+
+.range-labels>span {
+  padding: 0px 1.75rem;
+}
+
+.festy-text {
+  font-weight: 450;
+  font-size: 0.9rem;
+}
+
+.festy-num {
+  font-weight: 600 !important;
+}
+
+.range-meter-container {
+  --animate-duration: 0.8s;
+}
