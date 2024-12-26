@@ -91,6 +91,13 @@
   font-size: 0.9rem;
 }
 
+@media (max-width: 768px) {
+  .festy-text {
+    font-weight: 300;
+    font-size: 0.6rem;
+  }
+}
+
 .festy-num {
   font-weight: 600 !important;
 }

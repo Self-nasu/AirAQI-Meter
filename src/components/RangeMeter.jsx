@@ -33,7 +33,7 @@ function RangeMeter({ currentValue }) {
             borderRadius: '8px 0 0 8px',
           }}
         >
-          <span  style={{ top: -32, position: 'relative', color: '#4CAF50' }}>Good</span>
+          <span className='festy-text'  style={{ top: -32, position: 'relative', color: '#4CAF50' }}>Good</span>
         </div>
         <div
           className="range-progress-zone text-center"
@@ -42,7 +42,7 @@ function RangeMeter({ currentValue }) {
             backgroundColor: '#FFEB3B',
           }}
         >
-        <span style={{ top: -32, position: 'relative', color: '#FFEB3B' }}>Moderate</span>
+        <span className='festy-text' style={{ top: -32, position: 'relative', color: '#FFEB3B' }}>Moderate</span>
 
         </div>
         <div
@@ -52,7 +52,7 @@ function RangeMeter({ currentValue }) {
             backgroundColor: '#FF9800',
           }}
         >
-        <span style={{ top: -32, position: 'relative', color: '#FF9800' }}>Poor</span>
+        <span className='festy-text' style={{ top: -32, position: 'relative', color: '#FF9800' }}>Poor</span>
 
         </div>
         <div
@@ -62,7 +62,7 @@ function RangeMeter({ currentValue }) {
             backgroundColor: '#F44336',
           }}
         >
-        <span style={{ top: -32, position: 'relative', color: '#F44336' }}>Unhealthy</span>
+        <span className='festy-text' style={{ top: -32, position: 'relative', color: '#F44336' }}>Unhealthy</span>
 
         </div>
         <div
@@ -72,7 +72,7 @@ function RangeMeter({ currentValue }) {
             backgroundColor: '#D32F2F',
           }}
         >
-        <span style={{ top: -32, position: 'relative', color: '#D32F2F' }}>Severe</span>
+        <span className='festy-text' style={{ top: -32, position: 'relative', color: '#D32F2F' }}>Severe</span>
 
         </div>
         <div
@@ -83,7 +83,7 @@ function RangeMeter({ currentValue }) {
             borderRadius: '0 8px 8px 0',
           }}
         >
-        <span style={{ top: -32, position: 'relative', color: '#B71C1C' }}>Hazardous</span>
+        <span className='festy-text' style={{ top: -32, position: 'relative', color: '#B71C1C' }}>Hazardous</span>
 
         </div>
         {/* indicator */}
